@@ -22,11 +22,11 @@ const FILES = {
 	"/Users/user/project/node_modules/worldview/package.json": `
 		{
 			"name": "worldview",
-			"module": "./index.ts"
+			"module": "./index.js"
 		}
 	`,
-	"/Users/user/project/node_modules/worldview/index.ts": `
-		import { Text } from 'react-native'
+	"/Users/user/project/node_modules/worldview/index.js": `
+		const { Text } = require('react-native')
 		export const worldview = Text;
 	`,
 };
